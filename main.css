@@ -1,0 +1,110 @@
+
+body {
+  background-image: url('oriental-tiles.png');
+  
+}
+</style>
+.over {
+    position: float;
+    top: 0;
+    width: 100%;
+    color: aqua;
+}
+
+.hoved {
+    margin-top: 0px;
+}
+#oskrift {
+    text-align: center;
+    color: lightgray;
+    margin-top: 30px;
+    
+}
+
+h2 { font-family: Verdana, Geneva, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 37px; color: grey; } 
+
+
+h1 { font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 21px;} 
+h3 { font-family: Verdana, Geneva, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; color: white;} 
+p { font-family: Verdana, Geneva, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: Verdana, Geneva, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: Verdana, Geneva, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+.avsnitt {
+    background-color: midnightblue;
+    color: #F5FFFA;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.topnav {
+  background-color: midnightblue;
+  overflow: hidden;
+    position: fixed;
+    width: 1420px;
+    border-radius: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: midnightblue;
+    
+}
+
+.topnav a.active {
+  background-color: white;
+  color: midnightblue;
+}
+
+table, th, td {
+  border: 1px solid darkgray;
+  color: #F5FFFA;
+  background-color: midnightblue;
+  border-spacing: 30px;
+  font-size: 25;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:25px;
+    -moz-border-radius:6px;
+}
+
+td, th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    border-radius: 7px;
+}
+
+th {
+    background-color: white;
+    border-top: none;
+    border-radius: 10px;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
